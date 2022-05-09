@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Ethix Sports Academy|About Us</title>
+</head>
+
+<body>
+    <div class="slider">
+
+    </div>
+    <section id="sheader" class="sheader">
+        <nav>
+            <a href="hp.html"><img src="logo.png" alt=""></a>
+            <div class="navlinks" id="navitems">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="hp.html">HOME</a></li>
+                    <li><a href="hp.html">TRAININGS</a></li>
+                    <li><a href="hp.html">ACROSS THE COUNTRY</a></li>
+                    <li><a href="hp.html">FACILITIES</a></li>
+                    <li><a href="hp.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav> 
+        <h1>About Us</h1>
+
+    </section>
+
+    <section class="about">
+        <div class="row">
+            <div class="aboutcol">
+                <h1>We Are One Of The Finest Sports Academy in India</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus, aspernatur
+                    dolorum nesciunt totam placeat illum non, incidunt, dolor facere fuga assumenda saepe pariatur
+                    sequi!</p>
+                    <a href="" class="btn">Explore Now</a>
+            </div>
+            <div class="aboutcol">
+                <img src="logo.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4><a href="about.html">More About Us</a></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore odit assumenda deleniti architecto quas
+            placeat rem ad qui ipsum, repellat <br>reprehenderit maiores nihil numquam animi aperiam sequi itaque cumque
+            possimus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script>
+        var navitems = document.getElementById("navitems");
+        function showmenu() {
+            navitems.style.right = "0";
+        }
+        function hidemenu() {
+            navitems.style.right = "-300px";
+        }
+    </script>
+</body>
+
+</html>
